@@ -5,10 +5,8 @@ const config: CapacitorConfig = {
   appName: 'TECHNOLOGY CALCULATOR',
   webDir: 'dist/public',
   server: {
-    // For development with localhost
-    url: 'http://localhost:5000',
-    cleartext: true,
-    // For production build
+    // For local production build, we don't use a localhost URL
+    // Capacitor will load the files directly from the webDir
     androidScheme: 'https'
   },
   plugins: {
@@ -25,7 +23,6 @@ const config: CapacitorConfig = {
       keystoreAliasPassword: "ywHE2xNOa6cf",
       releaseType: "APK"
     },
-    // Allow localhost access
     allowMixedContent: true
   }
 };
