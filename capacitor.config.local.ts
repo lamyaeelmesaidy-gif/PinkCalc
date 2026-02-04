@@ -18,9 +18,9 @@ const config: CapacitorConfig = {
   android: {
     buildOptions: {
       keystorePath: "app/signing.keystore",
-      keystorePassword: "aPbD8TqaKeHd",
+      keystorePassword: "ywHE2xNOa6cf",
       keystoreAlias: "my-key-alias",
-      keystoreAliasPassword: "aPbD8TqaKeHd",
+      keystoreAliasPassword: "ywHE2xNOa6cf",
       releaseType: "APK"
     },
     allowMixedContent: true
