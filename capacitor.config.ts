@@ -1,8 +1,8 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.developsaas.nadinor.app',
-  appName: 'Calculator Cute',
+  appId: 'com.appstechnology.app',
+  appName: 'TECHNOLOGY CALCULATOR',
   webDir: 'dist/public',
   server: {
     // For development with localhost
