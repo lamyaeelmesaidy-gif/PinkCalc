@@ -7,10 +7,10 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace "com.developsaas.nadinor.app"
+    namespace "com.appstechnology.app"
     compileSdk rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "com.developsaas.nadinor.app"
+        applicationId "com.appstechnology.app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -26,10 +26,10 @@ android {
     signingConfigs {
         release {
             if (keystorePropertiesFile.exists()) {
-                keyAlias keystoreProperties['keyAlias']
-                keyPassword keystoreProperties['keyPassword']
-                storeFile file(keystoreProperties['storeFile'])
-                storePassword keystoreProperties['storePassword']
+                keyAlias keystoreProperties['my-key-alias']
+                keyPassword keystoreProperties['ywHE2xNOa6cf']
+                storeFile file(keystoreProperties['app/signing.keystore'])
+                storePassword keystoreProperties['ywHE2xNOa6cf']
             }
         }
     }
