@@ -1,8 +1,8 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.appstechnology.app',
-  appName: 'TECHNOLOGY CALCULATOR',
+  appId: 'com.appstechnology.calculatorcute',
+  appName: 'Calculator Cute',
   webDir: 'dist/public',
   server: {
     // For local production build, we don't use a localhost URL
